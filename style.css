@@ -288,6 +288,9 @@
 
 @media screen and (max-width:576px) {
     /* Donate Plan */
+    .donate-plan{
+        margin-top: -50px;
+    }
     .donate-plan-colum{
         flex-direction: column;
         padding: 20px 20px;
@@ -339,6 +342,30 @@
         font-size: 16px;
         text-align: center;
 
+    }
+
+    .donate-option{
+        padding: 20px 20px;
+    }
+    .donate-amount{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .donate-amount li{
+        margin-bottom: 10px;
+    }
+    .donate-amount li a{
+        font-size:30px
+    }
+    .input-tk input{
+       width: 100px;
+       padding: 20px 30px;
+       font-size: 16px;
+    }
+    .btn-primary-2{
+        padding:10px 15px;
     }
 
 }
