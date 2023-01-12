@@ -314,8 +314,33 @@
     .btn-lives{
         margin-bottom: 20px;
     }
+    .my-update{
+        width: 100%;
+    }
+    .my-update-input-box{
+        width: 100%;
+    }
+    .my-update h2{
+        width: 100%;
+        font-size: 40px;
+    }
+    .my-update p{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+
+    }
 
 }
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:577px) and (max-width:992px) {
     .lives{
