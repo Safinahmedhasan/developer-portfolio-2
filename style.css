@@ -293,7 +293,9 @@
         margin-left: 0;
         margin-bottom: 10px;
     }
-
+    .containt{
+        width: 100%;
+    }
     /*  */
 
     .container-images img{
