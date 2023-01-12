@@ -315,7 +315,7 @@
         margin-bottom: 20px;
     }
     .my-update{
-        width: 100%;
+        width: 90%;
     }
     .my-update-input-box{
         width: 100%;
@@ -358,6 +358,30 @@
     .container-images img{
         width: 100%;
         margin-right: 20px;
+    }
+
+
+    .lives-donate{
+        padding: 20px;
+    }
+    .btn-lives{
+        margin-bottom: 20px;
+    }
+    .my-update{
+        width: 90%;
+    }
+    .my-update-input-box{
+        width: 100%;
+    }
+    .my-update h2{
+        width: 100%;
+        font-size: 40px;
+    }
+    .my-update p{
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+
     }
 }
 
