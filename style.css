@@ -272,3 +272,72 @@
     color: rgb(95, 92, 92);
     text-align: center;
 } 
+
+
+/* Responsive Website */
+
+@media screen and (max-width:576px) {
+    /* Donate Plan */
+    .donate-plan-colum{
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .donate-plan-p{
+        width:90%;
+        
+    }
+    .donate-plan h2{
+        font-size: 30px;
+    }
+    .donate-plan-single-1, .donate-plan-single-2, .donate-plan-single-3{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    /*  */
+
+    .container-images img{
+        width: 100%;
+    }
+    .lives{
+        flex-direction: column-reverse;
+        padding-top:0;
+    }
+    .containt p{
+        width: 300px;
+    }
+    .lives-donate{
+        padding: 20px;
+    }
+    .btn-lives{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .lives{
+        padding-top:0;
+        gap: 20px;
+        margin-top: 20px;
+        
+    }
+    .donate-plan-colum{
+        padding: 20px;
+    }
+    .lives-donate{
+       padding: 0 20px;
+    }
+    .container-images img{
+        width: 100%;
+        margin-right: 20px;
+    }
+}
+
+
+
+
+
+.hide{
+    display: none;
+}
